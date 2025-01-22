@@ -1,5 +1,5 @@
 TARGET := iphone:clang:14.5:14.5
-ARCHS = arm64 arm64e
+ARCHS = armv7 armv7s
 INSTALL_TARGET_PROCESSES = itunesstored
 GO_EASY_ON_ME = 1
 # export THEOS_DEVICE_IP = 127.0.0.1
