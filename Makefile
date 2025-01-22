@@ -1,4 +1,4 @@
-TARGET := iphone:clang:10.3:2.0
+TARGET := iphone:clang:10.3:6.0
 ARCHS = armv7 armv7s
 INSTALL_TARGET_PROCESSES = itunesstored
 GO_EASY_ON_ME = 1
