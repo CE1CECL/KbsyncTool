@@ -1,4 +1,4 @@
-TARGET := iphone:clang:2.0:2.0
+TARGET := iphone:clang:9.3:2.0
 # THEOS_DEVICE_IP = 127.0.0.1
 # THEOS_DEVICE_PORT = 58422
 
