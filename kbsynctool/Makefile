@@ -1,5 +1,5 @@
-TARGET := iphone:clang:12.4:6.0
-ARCHS = armv7 armv7s
+TARGET := iphone:clang:14.5:6.0
+ARCHS = armv7 armv7s arm64 arm64e
 GO_EASY_ON_ME = 1
 # THEOS_DEVICE_IP = 127.0.0.1
 # THEOS_DEVICE_PORT = 58422
