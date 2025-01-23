@@ -73,7 +73,7 @@ jobs:
           make package _THEOS_DARWIN_CAN_USE_MODULES=0 FINALPACKAGE=1
       
       - name: Publish artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: kbsynctool
           path: ${{ github.workspace }}/packages/*.deb
